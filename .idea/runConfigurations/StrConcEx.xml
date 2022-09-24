@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StrConcEx" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="loom.examples.StrConcEx" />
+    <module name="loom-profile" />
+    <option name="VM_PARAMETERS" value="--enable-preview --add-modules=jdk.incubator.concurrent -Djava.library.path=$PROJECT_DIR$/../async-profiler/build" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="loom.examples.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
